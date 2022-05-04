@@ -17,7 +17,7 @@
                 <outlet property="right2Button" destination="LHS-pg-mV6" id="yzl-x5-0tG"/>
                 <outlet property="right2ContentContainer" destination="ETp-PT-X4i" id="6Zt-2e-w1x"/>
                 <outlet property="right2IconImage" destination="dAf-ck-h7z" id="hmy-Yt-2n2"/>
-                <outlet property="rightButton" destination="LHS-pg-mV6" id="BLh-i7-894"/>
+                <outlet property="rightButton" destination="NQA-EZ-pMc" id="mpw-DI-rAR"/>
                 <outlet property="rightContentContainer" destination="ETp-PT-X4i" id="NXK-AX-pf7"/>
                 <outlet property="rightIconImage" destination="dAf-ck-h7z" id="c9q-5z-8sD"/>
                 <outlet property="view" destination="iN0-l3-epB" id="GWK-A9-gUX"/>
