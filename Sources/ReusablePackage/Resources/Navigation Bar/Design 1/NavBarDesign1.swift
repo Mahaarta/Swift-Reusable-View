@@ -37,37 +37,37 @@ public class NavBarDesign1: UIView {
         ])
     }
     
-    var viewBackgroundColor: UIColor = UIColor.clear {
+    public var viewBackgroundColor: UIColor = UIColor.clear {
         didSet {
             mainContainer.backgroundColor = viewBackgroundColor
         }
     }
     
-    var leftContentBackgroundColor: UIColor = UIColor.clear {
+    public var leftContentBackgroundColor: UIColor = UIColor.clear {
         didSet {
             leftContentContainer.backgroundColor = leftContentBackgroundColor
         }
     }
     
-    var leftContentImageString: String = "" {
+    public var leftContentImageString: String = "" {
         didSet {
             leftIconImage.image = UIImage(named: leftContentImageString)
         }
     }
     
-    var textColorString: UIColor = UIColor.black {
+    public var textColorString: UIColor = UIColor.black {
         didSet {
             titleLabel.textColor = textColorString
         }
     }
     
-    var title: String = "" {
+    public var title: String = "" {
         didSet {
             titleLabel.text = title
         }
     }
     
-    var isLeftContentContainerRounded: CGFloat {
+    public var isLeftContentContainerRounded: CGFloat {
         set {
             leftContentContainer.cornerRadius = leftContentContainer.height / 2
         }
@@ -76,7 +76,7 @@ public class NavBarDesign1: UIView {
         }
     }
     
-    var isLeftContentContainerHidden: Bool {
+    public var isLeftContentContainerHidden: Bool {
         set {
             leftContentContainer.isHidden = newValue
         }
@@ -85,7 +85,7 @@ public class NavBarDesign1: UIView {
         }
     }
     
-    var isTitleStringHidden: Bool {
+    public var isTitleStringHidden: Bool {
         set {
             titleLabel.isHidden = newValue
         }
