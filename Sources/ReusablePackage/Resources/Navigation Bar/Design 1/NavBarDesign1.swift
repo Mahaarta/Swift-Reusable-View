@@ -8,7 +8,7 @@
 import UIKit
 import Foundation
 
-final public class NavBarDesign1: UIView {
+Ωpublic class NavBarDesign1: UIView {
     
     @IBOutlet var view: UIView!
     @IBOutlet weak var mainContainer: UIView!
