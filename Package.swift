@@ -22,7 +22,10 @@ let package = Package(
         .target(
             name: "ReusablePackage",
             dependencies: [],
-            resources: [.process("Resources")]
+            resources: [
+                .process("Resources"),
+                .copy("NavBarDesign1")
+            ]
             ),
         .testTarget(
             name: "ReusablePackageTests",

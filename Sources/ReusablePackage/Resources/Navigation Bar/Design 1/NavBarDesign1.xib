@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NavBarDesign1" customModule="ReusablePackage">
             <connections>
-                <outlet property="mainContainer" destination="5Xe-mo-Rup" id="3f7-h0-HWN"/>
+                <outlet property="mainContainer" destination="5Xe-mo-Rup" id="usC-eb-K24"/>
                 <outlet property="titleLabel" destination="yRf-dF-Jl0" id="SIY-DK-7DU"/>
                 <outlet property="view" destination="iN0-l3-epB" id="NER-aq-kwf"/>
             </connections>
@@ -47,9 +47,6 @@
                 <constraint firstItem="5Xe-mo-Rup" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="e95-yU-GUo"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <connections>
-                <outlet property="mainContainer" destination="5Xe-mo-Rup" id="Wed-4k-hfY"/>
-            </connections>
             <point key="canvasLocation" x="271.73913043478262" y="-164.39732142857142"/>
         </view>
     </objects>
