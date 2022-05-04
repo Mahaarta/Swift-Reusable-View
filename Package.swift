@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "ReusablePackage",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v11)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -23,10 +23,8 @@ let package = Package(
             name: "ReusablePackage",
             dependencies: [],
             resources: [
-                .process("Resources"),
                 .copy("NavBarDesign1")
-            ]
-            ),
+            ]),
         .testTarget(
             name: "ReusablePackageTests",
             dependencies: ["ReusablePackage"]),
