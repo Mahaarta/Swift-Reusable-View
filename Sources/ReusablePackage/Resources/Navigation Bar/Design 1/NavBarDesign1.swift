@@ -11,11 +11,11 @@ import Foundation
 public class NavBarDesign1: UIView {
     
     @IBOutlet private var view: UIView!
-    @IBOutlet weak var mainContainer: UIView!
-    @IBOutlet private weak var titleLabel: UILabel!
-    @IBOutlet private weak var leftContentContainer: UIView!
-    @IBOutlet private weak var leftIconImage: UIImageView!
-    @IBOutlet weak var leftButton: UIButton!
+    @IBOutlet public weak var mainContainer: UIView!
+    @IBOutlet public weak var titleLabel: UILabel!
+    @IBOutlet public weak var leftContentContainer: UIView!
+    @IBOutlet public weak var leftIconImage: UIImageView!
+    @IBOutlet public weak var leftButton: UIButton!
     
     public override func awakeFromNib() {
         initWithNib()
@@ -69,10 +69,10 @@ public class NavBarDesign1: UIView {
     
     public var isLeftContentContainerRounded: CGFloat {
         set {
-            leftContentContainer.cornerRadius = leftContentContainer.height / 2
+            leftContentContainer.layer.cornerRadius = self.bounds.size.height / 2
         }
         get {
-            return leftContentContainer.cornerRadius
+            return leftContentContainer.layer.cornerRadius
         }
     }
     
