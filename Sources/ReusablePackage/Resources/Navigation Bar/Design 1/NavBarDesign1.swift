@@ -10,9 +10,12 @@ import Foundation
 
 public class NavBarDesign1: UIView {
     
-    @IBOutlet var view: UIView!
+    @IBOutlet private var view: UIView!
     @IBOutlet weak var mainContainer: UIView!
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet private weak var titleLabel: UILabel!
+    @IBOutlet private weak var leftContentContainer: UIView!
+    @IBOutlet private weak var leftIconImage: UIImageView!
+    @IBOutlet weak var leftButton: UIButton!
     
     public override func awakeFromNib() {
         initWithNib()
@@ -34,9 +37,60 @@ public class NavBarDesign1: UIView {
         ])
     }
     
-    public var viewBackgroundColor: UIColor = UIColor.red {
+    var viewBackgroundColor: UIColor = UIColor.clear {
         didSet {
             mainContainer.backgroundColor = viewBackgroundColor
+        }
+    }
+    
+    var leftContentBackgroundColor: UIColor = UIColor.clear {
+        didSet {
+            leftContentContainer.backgroundColor = leftContentBackgroundColor
+        }
+    }
+    
+    var leftContentImageString: String = "" {
+        didSet {
+            leftIconImage.image = UIImage(named: leftContentImageString)
+        }
+    }
+    
+    var textColorString: UIColor = UIColor.black {
+        didSet {
+            titleLabel.textColor = textColorString
+        }
+    }
+    
+    var title: String = "" {
+        didSet {
+            titleLabel.text = title
+        }
+    }
+    
+    var isLeftContentContainerRounded: CGFloat {
+        set {
+            leftContentContainer.cornerRadius = leftContentContainer.height / 2
+        }
+        get {
+            return leftContentContainer.cornerRadius
+        }
+    }
+    
+    var isLeftContentContainerHidden: Bool {
+        set {
+            leftContentContainer.isHidden = newValue
+        }
+        get {
+            return leftContentContainer.isHidden
+        }
+    }
+    
+    var isTitleStringHidden: Bool {
+        set {
+            titleLabel.isHidden = newValue
+        }
+        get {
+            return titleLabel.isHidden
         }
     }
 }
