@@ -57,7 +57,11 @@ public class NavBarDesign2: UIView {
     
     public var rightContentImageString: String = "" {
         didSet {
-            rightIconImage.image = UIImage(named: rightContentImageString)
+            if #available(iOS 13.0, *) {
+                rightIconImage.image = UIImage(systemName: rightContentImageString)
+            } else {
+                rightIconImage.image = UIImage(named: rightContentImageString)
+            }
         }
     }
     

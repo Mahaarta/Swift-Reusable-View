@@ -39,13 +39,13 @@
                             <rect key="frame" x="366" y="29.5" width="32" height="32"/>
                             <subviews>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dAf-ck-h7z">
-                                    <rect key="frame" x="6" y="5.5" width="20" height="20.5"/>
+                                    <rect key="frame" x="6" y="5.5" width="20" height="21"/>
                                     <color key="tintColor" red="0.30364564398010913" green="0.32666465366939557" blue="0.32953447164948457" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="20" id="hfe-kA-0gb"/>
                                         <constraint firstAttribute="height" constant="20" id="rvA-h8-y7Z"/>
                                     </constraints>
-                                    <imageReference key="image" image="person.circle" catalog="system" symbolScale="medium"/>
+                                    <imageReference key="image" image="bell.fill" catalog="system" symbolScale="medium"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="semibold"/>
                                 </imageView>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHS-pg-mV6">
@@ -89,7 +89,7 @@
         </view>
     </objects>
     <resources>
-        <image name="person.circle" catalog="system" width="128" height="121"/>
+        <image name="bell.fill" catalog="system" width="128" height="124"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
