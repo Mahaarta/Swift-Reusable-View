@@ -34,20 +34,20 @@
                     <rect key="frame" x="0.0" y="0.0" width="619" height="132"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4gU-O6-sy0">
-                            <rect key="frame" x="16" y="46" width="40" height="40"/>
+                            <rect key="frame" x="16" y="50" width="32" height="32"/>
                             <subviews>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Xl-3g-oXk">
-                                    <rect key="frame" x="8" y="9.5" width="24" height="20.5"/>
+                                    <rect key="frame" x="6" y="7.5" width="20" height="16.5"/>
                                     <color key="tintColor" red="0.0" green="0.062938189611117537" blue="0.19613189242549778" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="24" id="1fS-Oy-V5H"/>
-                                        <constraint firstAttribute="width" constant="24" id="TRw-63-NXH"/>
+                                        <constraint firstAttribute="height" constant="20" id="1fS-Oy-V5H"/>
+                                        <constraint firstAttribute="width" constant="20" id="TRw-63-NXH"/>
                                     </constraints>
                                     <imageReference key="image" image="arrow.backward" catalog="system" symbolScale="medium"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="semibold"/>
                                 </imageView>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zuU-iU-Qis">
-                                    <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title=""/>
                                 </button>
@@ -55,17 +55,17 @@
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <constraints>
                                 <constraint firstAttribute="bottom" secondItem="zuU-iU-Qis" secondAttribute="bottom" id="1Dg-n0-0gF"/>
-                                <constraint firstAttribute="height" constant="40" id="3cV-H3-5dN"/>
+                                <constraint firstAttribute="height" constant="32" id="3cV-H3-5dN"/>
                                 <constraint firstItem="zuU-iU-Qis" firstAttribute="leading" secondItem="4gU-O6-sy0" secondAttribute="leading" id="FGO-rR-FH8"/>
                                 <constraint firstItem="zuU-iU-Qis" firstAttribute="top" secondItem="4gU-O6-sy0" secondAttribute="top" id="Iw0-0g-MQF"/>
-                                <constraint firstAttribute="width" constant="40" id="NXN-vh-tyD"/>
+                                <constraint firstAttribute="width" constant="32" id="NXN-vh-tyD"/>
                                 <constraint firstItem="3Xl-3g-oXk" firstAttribute="centerY" secondItem="4gU-O6-sy0" secondAttribute="centerY" id="WY2-8q-VhH"/>
                                 <constraint firstItem="3Xl-3g-oXk" firstAttribute="centerX" secondItem="4gU-O6-sy0" secondAttribute="centerX" id="gvh-l4-Jaz"/>
                                 <constraint firstAttribute="trailing" secondItem="zuU-iU-Qis" secondAttribute="trailing" id="qg5-4a-6or"/>
                             </constraints>
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lnm-tK-AEy">
-                            <rect key="frame" x="72" y="58" width="531" height="16.5"/>
+                            <rect key="frame" x="64" y="58" width="539" height="16.5"/>
                             <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="14"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
