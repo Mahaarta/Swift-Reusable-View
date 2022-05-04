@@ -55,9 +55,9 @@ public class TextFieldDesign1: UIView {
         }
     }
     
-    public var borderColor: UIColor = UIColor.black {
+    public var borderColor: CGColor = UIColor.black.cgColor {
         didSet {
-            mainContainer.layer.borderColor = borderColor.cgColor
+            mainContainer.layer.borderColor = borderColor
         }
     }
     
