@@ -24,7 +24,8 @@ let package = Package(
             dependencies: [],
             resources: [
                 .copy("NavBarDesign1"),
-                .copy("NavBarDesign2")
+                .copy("NavBarDesign2"),
+                .copy("TextFieldDesign1")
             ]),
         .testTarget(
             name: "ReusablePackageTests",

@@ -57,11 +57,11 @@ public class TextFieldDesign1: UIView {
     
     public var borderColor: UIColor = UIColor.black {
         didSet {
-            mainContainer.layer.borderColor = borderColor
+            mainContainer.layer.borderColor = borderColor.cgColor
         }
     }
     
-    public var borderWidth: Int = 1 {
+    public var borderWidth: CGFloat = 1.0 {
         didSet {
             mainContainer.layer.borderWidth = borderWidth
         }
