@@ -16,6 +16,9 @@ public class NavBarDesign2: UIView {
     @IBOutlet public weak var rightContentContainer: UIView!
     @IBOutlet public weak var rightIconImage: UIImageView!
     @IBOutlet public weak var rightButton: UIButton!
+    @IBOutlet public weak var right2ContentContainer: UIView!
+    @IBOutlet public weak var right2IconImage: UIImageView!
+    @IBOutlet public weak var right2Button: UIButton!
     
     public override func awakeFromNib() {
         initWithNib()
@@ -49,6 +52,7 @@ public class NavBarDesign2: UIView {
         }
     }
     
+    // Right 1
     public var rightContentBackgroundColor: UIColor = UIColor.clear {
         didSet {
             rightContentContainer.backgroundColor = rightContentBackgroundColor
@@ -71,6 +75,32 @@ public class NavBarDesign2: UIView {
         }
         get {
             return rightContentContainer.isHidden
+        }
+    }
+    
+    // Right 2
+    public var right2ContentBackgroundColor: UIColor = UIColor.clear {
+        didSet {
+            right2ContentContainer.backgroundColor = right2ContentBackgroundColor
+        }
+    }
+    
+    public var right2ContentImageString: String = "" {
+        didSet {
+            if #available(iOS 13.0, *) {
+                right2IconImage.image = UIImage(systemName: right2ContentImageString)
+            } else {
+                right2IconImage.image = UIImage(named: right2ContentImageString)
+            }
+        }
+    }
+    
+    public var isRight2ContentContainerHidden: Bool {
+        set {
+            right2ContentContainer.isHidden = newValue
+        }
+        get {
+            return right2ContentContainer.isHidden
         }
     }
 }
