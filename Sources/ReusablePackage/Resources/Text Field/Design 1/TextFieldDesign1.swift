@@ -66,4 +66,10 @@ public class TextFieldDesign1: UIView {
             mainContainer.layer.borderWidth = borderWidth
         }
     }
+    
+    public var textPlaceholder: String = "" {
+        didSet {
+            textField.placeholder = textPlaceholder
+        }
+    }
 }
