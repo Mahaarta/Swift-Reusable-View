@@ -69,7 +69,7 @@ public class NavBarDesign1: UIView {
     
     public var isLeftContentContainerRounded: CGFloat {
         set {
-            leftContentContainer.layer.cornerRadius = self.bounds.size.height / 2
+            leftContentContainer.layer.cornerRadius = leftContentContainer.layer.bounds.size.height / 2 
         }
         get {
             return leftContentContainer.layer.cornerRadius
