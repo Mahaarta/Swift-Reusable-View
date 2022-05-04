@@ -103,4 +103,5 @@ public class NavBarDesign2: UIView {
             return right2ContentContainer.isHidden
         }
     }
+    
 }
