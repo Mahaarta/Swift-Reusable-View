@@ -23,7 +23,8 @@ let package = Package(
             name: "ReusablePackage",
             dependencies: [],
             resources: [
-                .copy("NavBarDesign1")
+                .copy("NavBarDesign1"),
+                .copy("NavBarDesign2")
             ]),
         .testTarget(
             name: "ReusablePackageTests",
