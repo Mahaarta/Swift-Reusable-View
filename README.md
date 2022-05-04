@@ -1,8 +1,9 @@
 # ReusablePackage
 
-This is a Swift Reusable package that you can use freely. </ br>
+This is a Swift Reusable package that you can use freely. <br />
 it's aint much, but it's an honest work.
-</ br>
+<br />
+<br />
 You can add yours, it's open source.
 
 <h3> How to use </h3>
