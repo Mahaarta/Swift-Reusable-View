@@ -224,7 +224,7 @@ public class ColorLibrary: UIColor {
     }
     
     // Inactive
-    @nonobjc public class var inactiveBlack800: UIColor {
+    @nonobjc public class var inactiveBlack900: UIColor {
         return UIColor(red: 8.0 / 255.0, green: 26.0 / 255.0, blue: 41.0 / 255.0, alpha: 1.0)
     }
     
