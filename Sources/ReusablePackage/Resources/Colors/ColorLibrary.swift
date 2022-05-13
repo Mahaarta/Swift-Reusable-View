@@ -10,6 +10,10 @@ import Foundation
 
 public class ColorLibrary: UIColor {
     
+    var reusableColorLibrary: ColorLibrary {
+        return UIApplication.shared.delegate as! ColorLibrary
+    }
+    
     // Text
     @nonobjc public class var textPrimary: UIColor {
         return UIColor(red: 51.0 / 255.0, green: 51.0 / 255.0, blue: 51.0 / 255.0, alpha: 1.0)
