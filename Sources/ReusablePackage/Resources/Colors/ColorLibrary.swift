@@ -10,7 +10,7 @@ import Foundation
 
 public class ColorLibrary: UIColor {
     
-    var reusableColorLibrary: ColorLibrary {
+    public var reusableColorLibrary: ColorLibrary {
         return UIApplication.shared.delegate as! ColorLibrary
     }
     
