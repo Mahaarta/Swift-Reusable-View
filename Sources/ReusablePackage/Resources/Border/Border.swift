@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class Border: UIView {
+public extension UIView {
     
     func normalBorder(_ color: CGColor) {
         layer.borderColor = color
