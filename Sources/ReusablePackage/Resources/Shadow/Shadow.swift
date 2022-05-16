@@ -12,14 +12,14 @@ public extension UIView {
     func hardShadow() {
         layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1).cgColor
         layer.shadowRadius = 8.0
-        //layer.shadowOffset = CGSize(width: 0, height: 8)
+        layer.shadowOffset = CGSize(width: 0, height: 8)
         layer.shadowOpacity = 0.1
     }
     
     func mediumShadow() {
         layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1).cgColor
         layer.shadowRadius = 16.0
-        //layer.shadowOffset = CGSize(width: 0, height: 8)
+        layer.shadowOffset = CGSize(width: 0, height: 8)
         layer.shadowOpacity = 0.1
     }
     
