@@ -23,6 +23,7 @@ public class NavBarDesign1: UIView {
     
     public func initWithNib() {
         Bundle.module.loadNibNamed(String(describing: type(of: self)), owner: self, options: nil)
+
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         setupLayout()
